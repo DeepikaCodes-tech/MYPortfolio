@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
+import { Bot, Code, GitBranch, Terminal } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Code, GitBranch, Bot, Terminal } from "lucide-react";
 
 const Home = () => {
   const technologies = [
@@ -44,7 +44,7 @@ const Home = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 sm:mb-6"
           >
-            Software Development Engineer in Test
+            Software Developer
           </motion.h2>
 
           <motion.p
