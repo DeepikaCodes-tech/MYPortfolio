@@ -35,7 +35,7 @@ const About = () => {
           {/* Profile Image - Always visible */}
           <div className="w-52 h-52 flex-shrink-0 bg-gray-800 p-2 shadow-lg border-2 border-gray-600 rounded">
             <img
-              src="/F.jpg"
+              src="/G.png"
               alt="My Portrait"
               className="w-full h-full object-cover rounded"
             />
