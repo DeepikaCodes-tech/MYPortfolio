@@ -1,6 +1,6 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import { ChevronDown, Code, Cpu, GraduationCap, Trophy } from "lucide-react";
 import { useState } from "react";
-import { ChevronDown, Cpu, GraduationCap, Trophy, Code } from "lucide-react";
 
 const About = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -35,7 +35,7 @@ const About = () => {
           {/* Profile Image - Always visible */}
           <div className="w-52 h-52 flex-shrink-0 bg-gray-800 p-2 shadow-lg border-2 border-gray-600 rounded">
             <img
-              src="/D.jpg"
+              src="/F.jpg"
               alt="My Portrait"
               className="w-full h-full object-cover rounded"
             />

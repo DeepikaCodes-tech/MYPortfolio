@@ -1,11 +1,11 @@
-import { motion, AnimatePresence } from "framer-motion";
-import { Mail, Github, Linkedin, Contact2, Send, Copy, X } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
+import { Contact2, Copy, Github, Linkedin, Mail, Send, X } from "lucide-react";
 import { useState } from "react";
 
 const Contact = () => {
   const [showEmailCard, setShowEmailCard] = useState(false);
   const [copySuccess, setCopySuccess] = useState(false);
-  const email = "deepikavelamakuru25@gmail.com";
+  const email = "deepikavelamakuru3@gmail.com";
 
   const copyToClipboard = async () => {
     try {
@@ -59,7 +59,7 @@ const Contact = () => {
             </div>
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/DeepikaCodes-tech"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
@@ -74,7 +74,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/deepika-velamakuru"
+              href="https://linkedin.com/in/deepikavelamakuru"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
